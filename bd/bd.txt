@@ -1,0 +1,21 @@
+# CONFIGURAÇÃO GITHUB:
+
+1. criar uma conta no github
+
+2. criar um repositório
+
+3. VSCODE (ctrl+shift+p)
+   >git add remote
+
+4. VSCODE (terminal)
+   git config --global user.name "Brunex"
+   git config --global user.email "Brunex@gmail.com"
+
+5. Commitar as alterações (se tiver)
+   >git commit
+
+6. Subir para o Github 
+   >git push to
+
+7. Sincronizar o Github com o VSCode
+   >git pull from
