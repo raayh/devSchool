@@ -48,7 +48,6 @@ app.put('/matricula/:id', async (req, resp) => {
 
     } catch (e) {
         resp.send({ erro: 'Ocorreu um erro!'})
-    }
 
 })
 app.listen(process.env.PORT,
