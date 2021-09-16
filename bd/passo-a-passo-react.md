@@ -1,3 +1,8 @@
+*Lembrar de baixar*
+-npm i react-router-dom 
+-npm i styled-components
+-npm i 
+
 
 # Passo a Passo - REACTJS
 
