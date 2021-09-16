@@ -114,7 +114,6 @@ margin-left: 36px;
 margin-top: 46px;
 
 width: 100%;
-height: 700px;
 
 background: #FFFFFF;
 box-shadow: 0px 0px 4px 1px rgba(186, 186, 186, 0.25);
