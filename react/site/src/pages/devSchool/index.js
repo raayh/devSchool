@@ -40,13 +40,13 @@ export default function Index() {
             if(r.erro) 
              toast.error(`${r.erro}`)
             else 
-             toast.dark('💕 Aluno inserido!');
+             toast.success('💕 Aluno inserido!');
 
         } else {
             let r = await api.alterar(idAlterando,nome, chamada, curso, turma);
             loading.current.complete();
             if(r.erro) 
-                toast.dark('Verifique as alterações, e tente novamente!')
+                toast.info('Verifique as alterações, e tente novamente!')
             else 
                 toast.dark('💕 Aluno Alterado!'); 
 
@@ -107,7 +107,7 @@ export default function Index() {
         <Conteudo>
             <Cabecalho />
             <ToastContainer />
-            <LoadingBar color="red" ref={loading} />
+            <LoadingBar color=" #E911C6" ref={loading} />
                     <div className="box-aluno"> 
                         <div className="titulo"> 
                             <div className="barra2"> </div>
