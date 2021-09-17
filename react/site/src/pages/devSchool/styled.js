@@ -81,6 +81,10 @@ margin-left: 36px;
 .box-matriculados{
 margin-top: 46px;
 width: 100%;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5aceb66420119614d2b219b401c6c195ede03ef9
 background: #FFFFFF;
 box-shadow: 0px 0px 4px 1px rgba(186, 186, 186, 0.25);
 padding: 32px 43px;
